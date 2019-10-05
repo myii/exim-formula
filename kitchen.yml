@@ -198,6 +198,7 @@ suites:
       state_top:
         base:
           '*':
+            - exim.yaml_dump
             - exim
       pillars:
         top.sls:
